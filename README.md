@@ -1,3 +1,5 @@
 # map
+discription:The HTML structure is defined, including the inclusion of Mapbox GL JS library and related CSS.The map container and overlay button for initiating the animation are set up.JavaScript initializes the map, sets the initial location, style, and zoom level using Mapbox GL JS.An array named busStops holds coordinates representing bus stops along the route from Coimbatore to Sulur.A marker is created on the map at the initial location (Coimbatore) using Mapbox GL JS.The move() function is defined to animate the marker's movement through the bus stops at 1-second intervals.The move() function moves the marker sequentially to each bus stop by updating its coordinates and using setTimeout.The counter variable keeps track of the current bus stop being approached.When the "coimbatore to sulur" button is clicked, the move() function is triggered to start the animation.The code includes provisions to ensure smooth movement of the marker and export functionality, concluding the description.
+
 
 link url:https://sridharmca23.github.io/map/
